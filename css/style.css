@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 28px;
+}
+
+.container {
+    min-width: 1200px;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding-top: 13px;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .eng {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.menu .doc-title {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.main .container {
+    margin-top: 83px;
+}
+
+.main .title {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.main .chapter {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    vertical-align: 70%;
+}
+
+.main p {
+    margin-top: 40px;
+}
+
+.chapter-list {
+    margin-top: 70px;
+}
+
+.chapter-1 p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.chapter-2 p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.p3 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.li {
+    margin-top: 40px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.chapter-4 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 90px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.grey {
+    background-color: #DADADA;
+}
+
