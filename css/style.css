@@ -26,7 +26,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 12px;
-    line-height: 9px;
     text-transform: uppercase;
     margin-right: 25px;
 }
@@ -36,12 +35,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 18px;
     text-transform: uppercase;
 }
 
 .main-header img {
     width: 100px;
+    height: auto;
 }
 
 .main .container {
@@ -53,7 +52,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
     text-transform: uppercase;
 }
 
@@ -62,7 +60,6 @@
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
-    line-height: 15px;
     vertical-align: 70%;
 }
 
@@ -153,13 +150,11 @@
     
     .menu .eng {
         font-size: 22px;
-        line-height: 18px;
         margin-right: 50px;
     }
     
     .menu .doc-title {
         font-size: 22px;
-        line-height: 28px;
     }
 
     .main-header img {
@@ -168,6 +163,7 @@
     
     .main .container {
         margin-top: 83px;
+        margin-bottom: 90px;
     }
     
     .main .title {
@@ -176,7 +172,7 @@
     }
     
     .main .chapter {
-        font-size: 30px;
+        font-size: 18px;
         line-height: 30px;
         vertical-align: 70%;
     }
@@ -214,7 +210,6 @@
     .chapter-4 {
         font-size: 28px;
         line-height: 48px;
-        margin-bottom: 90px;
     }
     
 }
