@@ -1,31 +1,45 @@
 /*review*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
 * {
     box-sizing: border-box;
     line-height: 1;
 }
 
 .container {
-    max-width: 930px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 .main-header {
-    padding-top: 13px;
+    margin-bottom: 0;
 }
 
 .main-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 .menu .eng {
     font-family: 'Tourney';
     font-style: normal;
     font-weight: 900;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     margin-right: 25px;
 }
@@ -34,7 +48,7 @@
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
@@ -43,32 +57,35 @@
     height: auto;
 }
 
-.main .container {
-    margin-top: 23px;
+main .container {
+    padding-top: 20px;
 }
 
-.main .title {
+main {
+    padding-top: 0;
+}
+
+main .title {
     font-family: 'Francois One';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
-.main .chapter {
+main .chapter {
     font-family: 'Farro';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 13px;
     vertical-align: 70%;
+    text-transform: none;
+    margin-left: 5px;
 }
 
-.main p {
-    margin-top: 20px;
-}
-
-.chapter-list {
-    margin-top: 35px;
+main p {
+    margin-bottom: 0;
 }
 
 .chapter-1 p {
@@ -96,12 +113,16 @@
 }
 
 .li {
-    margin-top: 20px;
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 20px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 .chapter-4 {
@@ -110,7 +131,12 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 24px;
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+
+.chapter-4 p {
+    margin-bottom: 0;
 }
 
 .underline {
@@ -131,18 +157,26 @@
 
 
 
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 1170px) {
+
+    main {
+        padding-top: 0;
+    }
     
     .container {
-        min-width: 1200px;
-        padding: 0 120px;
+        min-width: 1170px;
+        padding: 0 15px;
     }
     
     .main-header {
-        padding-top: 13px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     
     .main-header .container {
+        padding-top: 30px;
+        padding-bottom: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -161,28 +195,29 @@
         width: 238px;
     }
     
-    .main .container {
-        margin-top: 83px;
-        margin-bottom: 90px;
+    main .container {
+        padding-top: 70px;
+        margin-bottom: 0;
     }
     
-    .main .title {
+    main .title {
         font-size: 36px;
         line-height: 48px;
     }
     
-    .main .chapter {
+    main .chapter {
         font-size: 18px;
         line-height: 30px;
         vertical-align: 70%;
     }
     
-    .main p {
-        margin-top: 40px;
+    main p {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     
     .chapter-list {
-        margin-top: 70px;
+        margin-top: 0;
     }
     
     .chapter-1 p {
@@ -201,15 +236,25 @@
     }
     
     .li {
-        margin-top: 40px;
         font-weight: 400;
         font-size: 28px;
         line-height: 48px;
+        margin-bottom: 40px;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
     }
     
     .chapter-4 {
         font-size: 28px;
         line-height: 48px;
+        padding-bottom: 0;
+    }
+
+    .chapter-4 p:last-child {
+        margin-bottom: 0;
+        padding-bottom: 90px;
     }
     
 }
